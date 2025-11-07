@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100dvw;
+  flex-direction: column;
+}
+
+.logo {
+  width: 300px;
+}
+
+.wip {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 60px;
+  font-family: 'JetBrains Mono', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.paper-right {
+  width: 600px;
+  position: absolute;
+  right: -250px;
+  bottom: -250px;
+  transform: rotate(125deg);
+}
+
+.paper-left {
+  width: 600px;
+  position: absolute;
+  left: -280px;
+  top: -280px;
+  transform: rotate(-220deg);
+}
